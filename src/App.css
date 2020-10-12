@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+* {
+  box-sizing: border-box;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +38,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+.display {
+  background-color: gainsboro;
+  width: 285px;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 20px;
+  align-items: center;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
 }

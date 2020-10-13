@@ -41,11 +41,15 @@
 }
 .display {
   background-color: gainsboro;
+  /* border: lime solid; */
   width: 285px;
+  height: 100px;
   display: flex;
+  flex-direction: column;
   justify-content: flex-end;
-  padding-right: 20px;
-  align-items: center;
+  align-items: flex-end;
+  padding-right: 15px;
+  padding-bottom: 5px;
   font-size: 1.5rem;
   margin-bottom: 10px;
   border-radius: 2px;
